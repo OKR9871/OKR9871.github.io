@@ -94,10 +94,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "오경록"
+  name             : "OKR"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am a student."
-  location         : "인하대학교"
+  location         : 
   email            :
   links:
     - label: "dhrudfhr98@naver.com"
