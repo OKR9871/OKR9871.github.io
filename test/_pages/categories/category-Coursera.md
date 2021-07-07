@@ -1,7 +1,7 @@
 ---
 title: "[Coursera] Machine Learning"
 layout: archive
-permalink: categories/coursera
+permalink: categories/Coursera
 author_profile: true
 sidebar_main: true
 ---
