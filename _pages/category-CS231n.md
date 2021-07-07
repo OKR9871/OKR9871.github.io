@@ -1,7 +1,7 @@
 ---
 title: "[CS231n] Computer Vision"
 layout: archive
-permalink: categories/CS231n
+permalink: categories/cs231n
 author_profile: true
 sidebar_main: true
 ---
