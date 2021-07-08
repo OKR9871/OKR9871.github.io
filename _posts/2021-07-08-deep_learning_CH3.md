@@ -1,3 +1,19 @@
+---
+title:  "밑바닥부터 시작하는 딥러닝 CH3"
+excerpt: "밑바닥부터 시작하는 딥러닝"
+
+categories:
+  - Deep_Learning
+tags:
+  - [Blog, jekyll, Github, Git, Deep Learning]
+
+toc: true
+toc_sticky: true
+ 
+date: 2021-07-08
+last_modified_at: 2021-07-08
+---
+
 ```python
 def step_function(x):
   if x>0:
