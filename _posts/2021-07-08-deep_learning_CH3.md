@@ -87,7 +87,7 @@ plt.show()
 
 
     
-![png](basic_deep_learning_CH3_files/basic_deep_learning_CH3_5_0.png)
+![basic_deep_learning_CH3_5_0](https://user-images.githubusercontent.com/55619678/124923648-9dc8c080-e035-11eb-92de-79dde43cbfd9.png)
     
 
 
@@ -146,7 +146,7 @@ plt.show()
 
 
     
-![png](basic_deep_learning_CH3_files/basic_deep_learning_CH3_10_0.png)
+![basic_deep_learning_CH3_10_0](https://user-images.githubusercontent.com/55619678/124923639-9acdd000-e035-11eb-971b-2df8c6b4fce5.png)
     
 
 
