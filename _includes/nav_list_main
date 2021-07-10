@@ -39,5 +39,16 @@
             </ul>
         
       </li>
+      <li>
+        <!--span 태그로 카테고리들을 크게 분류 ex) C/C++/C#-->
+        <span class="nav__sub-title">Paper Review</span>
+           <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Object_Detection" %}
+                        <li><a href="/categories/Object_Detection" class="">Object_Detection({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+      </li>
   </ul>
 </nav>
