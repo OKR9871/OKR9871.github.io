@@ -129,7 +129,7 @@ print(int(dapple_num), dapple, int(dorange), int(dorange_num), dtax)
     110 2.2 3 165 650
     
 
-##### 5.5 활성화 함수 계층 구현하기    
+#### 5.5 활성화 함수 계층 구현하기    
 
 ReLU 계층
 
