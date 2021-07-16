@@ -1,3 +1,18 @@
+---
+title:  "밑바닥부터 시작하는 딥러닝 CH5"
+excerpt: "밑바닥부터 시작하는 딥러닝"
+
+categories:
+  - Deep_Learning
+tags:
+  - [Blog, jekyll, Github, Git, Deep Learning]
+
+toc: true
+toc_sticky: true
+ 
+date: 2021-07-16
+last_modified_at: 2021-07-16
+---
 ## 오차역전파법    
     
 #### 5.1 계산 그래프    
