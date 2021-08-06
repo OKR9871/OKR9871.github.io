@@ -1,11 +1,11 @@
 ---
-title: "[Paper Review] Object Detection"
+title: "[Paper Review]"
 layout: archive
-permalink: categories/Object_Detection
+permalink: categories/Paper_Review
 author_profile: true
 sidebar_main: true
 ---
 
 
-{% assign posts = site.categories.Object_Detection %}
+{% assign posts = site.categories.Paper_Review %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

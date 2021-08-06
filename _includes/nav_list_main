@@ -44,8 +44,8 @@
         <span class="nav__sub-title">Paper Review</span>
            <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Object_Detection" %}
-                        <li><a href="/categories/Object_Detection" class="">Object_Detection({{category[1].size}})</a></li>
+                    {% if category[0] == "Paper_Review" %}
+                        <li><a href="/categories/Paper_Review" class="">Paper_Review({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
