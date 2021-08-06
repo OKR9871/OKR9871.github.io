@@ -10,8 +10,8 @@ tags:
 toc: true
 toc_sticky: true
  
-date: 2021-08-01
-last_modified_at: 2021-08-01
+date: 2021-08-06
+last_modified_at: 2021-08-06
 ---
 # Batch Normalization    
 ## Abstract    
