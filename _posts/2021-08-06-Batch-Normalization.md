@@ -1,6 +1,6 @@
 ---
 title:  "[Paper Review] Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift"
-excerpt: "ResNet Paper Review"
+excerpt: "Batch Normalization Paper Review"
 
 categories:
   - Paper_Review
