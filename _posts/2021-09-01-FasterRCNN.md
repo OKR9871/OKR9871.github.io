@@ -1,5 +1,5 @@
 ---
-title:  "[Paper Review] Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks
+title:  "[Paper Review] Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks"
 excerpt: "Faster R-CNN Paper Review"
 
 categories:
