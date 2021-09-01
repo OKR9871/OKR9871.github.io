@@ -3,7 +3,7 @@ title:  "Algorithm Week1"
 excerpt: "인하대학교 김영호 교수님의 알고리즘 수업 week1 Review"
 
 categories:
-  - Statistics
+  - Algorithm
 tags:
   - [Blog, jekyll, Github, Git]
 
@@ -16,6 +16,7 @@ last_modified_at: 2021-09-01
 # Algorithm Week1   
 > 포스팅하는 내용은 모두 인하대학교 김영호 교수님의 강의 내용을 바탕으로 정리하였습니다.    
 ## 1. Analyzing Algorithms and Problems : Principles and Examples   
+
 ### Introduction   
 컴퓨터 알고리즘이란 무엇인가에 대해서 먼저 알아보겠습니다.    
 컴퓨터 알고리즘이란 문제를 해결하기 위한 구체적인 step-by-step의 방법을 말합니다. 다르게 표현하면 **컴퓨터를 사용하여 문제를 해결하는 단계적 절차**를 의미합니다. 여기서 조건이 붙는데 이는 유한시간(finite time)내에 해결해야한다는 점입니다.    
