@@ -13,7 +13,7 @@ toc_sticky: true
 date: 2021-09-22
 last_modified_at: 2021-09-22
 ---   
-# Algorithm Week3   
+# Algorithm Week4   
 > 포스팅하는 내용은 모두 인하대학교 김영호 교수님의 강의 내용을 바탕으로 정리하였습니다.   
 
 ## 1. Analyzing Algorithms and Problems : Principles and Examples   
