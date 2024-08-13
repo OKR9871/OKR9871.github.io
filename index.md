@@ -4,19 +4,24 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student at ...
+I am a Ph.D. student at the department of artificial intelligence in [Korea University](https://korea.edu/mbshome/mbs/en/index.do), supervised by [Prof. Sangpil Kim](https://kuaicv.com/professor/). My research interests are mainly on computer vision, especially multi-modal generative model and autonomy systems.  
 
 ## Research Interests
 
-- **Computer Vision:** image recognition, image generation, video captioning
-- **Machine Learning:** meta-learning, incremental learning, transfer learning
+- **Multi-modal Representaton:** Multi-modal video generation and Multi-modal visual synthesis.  
+- **Autonomous Driving:** 3D Object Detection, Occupancy Prediction
 
 ## News
 
-- **[Feb. 2020]** Our paper about incremental learning is accepted to CVPR 2020.
-- **[Feb. 2020]** We will host the ACM Multimedia Asia 2020 conference in Singapore!
-- **[Sept. 2019]** Our paper about few-shot learning is accepted to NeurIPS 2019.
-- **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019.
+- **[July. 2024]** Our paper about text-to-video generation is accepted to **[ECCV 2024](https://eccv.ecva.net/)**.
+- **[Mar. 2024]** Our paper about image manipulation is accepted to **[Neural Networks](https://www.sciencedirect.com/journal/neural-networks)**.
+- **[Feb. 2024]** Our paper about image stylization is accepted to **[Computational Visual Media](https://link.springer.com/journal/41095)**.
+- **[Jan. 2024]** I started research collaboration with **[Samsung Advanced Institute of Technology](https://www.sait.samsung.co.kr/saithome/main/main.do)**.
+- **[Dec. 2023]** Our paper about domain adaptation for 3DOD is accepted to **[AAAI 2024](https://aaai.org/aaai-conference/)**.
+- **[Aug. 2023]** Our paper about hand pose estimation and action recognition is accepted to **[BMVC 2023](https://bmvc2023.org/)** (Oral).
+- **[Sept. 2022]** Started the integrated MS/PhD program in the **[Computer Vision Lab](https://kuaicv.com/)**, Korea University.
+- **[July. 2022]** Our paper about sound-to-video generation is accepted to **[ECCV](https://eccv2022.ecva.net/)** 2022.
+
 
 {% include_relative _includes/publications.md %}
 

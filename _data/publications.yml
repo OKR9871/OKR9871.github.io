@@ -1,22 +1,74 @@
 main:
 
-  - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
-    authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
-    conference_short: MICCAI
-    conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
-    pdf: https://arxiv.org/pdf/2306.00988.pdf
-    code: https://github.com/MrGiovanni/ContinualLearning
-    bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
-    notes: Early Accept
+  - title: MEVG : Multi-event Video Generation with Text-to-Video Models
+    authors: <strong>Gyeongrok Oh</strong>, Jaehwan Jeong, Sieun Kim, Wonmin Byeon, Jinkyu Kim, Sungwoong Kim, Sangpil Kim* (*Corresponding authors)
+    conference_short: ECCV
+    conference: European Conference on Computer Vision <strong>(ECCV)</strong>, 2024.
+    pdf: https://arxiv.org/abs/2312.04086
+    code: https://kuai-lab.github.io/eccv2024mevg/
+    page: https://kuai-lab.github.io/eccv2024mevg/
+    bibtex: https://okr9871.github.io/
+    image: ./assets/img/mevg.png
+    notes: Poster Presentation
 
-  - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
-    authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
-    conference_short: CVPR
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
-    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+  - title: "Robust Sound-Guided Image Manipulation"
+    authors: Seunghyun Lee†, Hyung-gun Chi†, <strong>Gyeongrok Oh</strong>,  Wonmin Byeon, Sang Ho Yoon, Hyunje Park, Wonjun Cho, Jinkyu Kim*, Sangpil Kim*
+    conference_short: NN
+    conference: <strong>Neural Networks</strong>, 2024.
+    pdf: https://www.sciencedirect.com/science/article/abs/pii/S0893608024001953
+    code: https://kuai-lab.github.io/robust-demo/
+    page: https://kuai-lab.github.io/robust-demo/
+    bibtex: https://okr9871.github.io/
+    notes: Impact Factor 6.0
+    image: ./assets/img/robust.png
+
+  - title: "Audio-Guided Implicit Neural Representation for Local Image Stylization"
+    authors: Seung Hyun Lee†, Sieun Kim†, Wonmin Byeon, <strong>Gyeongrok Oh</strong>, Sumin In, Hyeongcheol Park, Sang Ho Yoon, Sung-hee Hong, Jinkyu Kim*, and Sangpil Kim*
+    conference_short: CVM
+    conference: <strong>Computational Visual Media</strong>, 2024.
+    # pdf: https://okr9871.github.io/
+    # code: https://kuai-lab.github.io/robust-demo/
+    # page: https://kuai-lab.github.io/robust-demo/
+    bibtex: https://okr9871.github.io/
+    notes: Impact Factor 17.3
+    image: ./assets/img/lisa.png
+
+  - title: "CMDA: Cross-Modal and Domain Adversarial Adaptation for LiDAR-based 3D Object Detection"
+    authors: Gyusam Chang†, Wonseok Roh†, Sujin Jang, Dongwook Lee, Daehyun Ji, <strong>Gyeongrok Oh</strong>, Jinsun Park, Jinkyu Kim*, Sangpil Kim*
+    conference_short: AAAI
+    conference: <strong>Association for the Advancement of Artificial Intelligence</strong>, 2024.
+    pdf: https://arxiv.org/abs/2403.03721
+    bibtex: https://okr9871.github.io/
+    notes: Poster Presentation
+    image: ./assets/img/cmda.png
+
+  - title: "Functional Hand Type Prior for 3D Hand Pose Estimation and Action Recognition from Egocentric View Monocular Videos"
+    authors: Wonseok Roh, Seung Hyun Lee, Wonjeong Ryoo, <strong>Gyeongrok Oh</strong>, Soo Yeon Hwang, Hyung-gun Chi, Sangpil Kim
+    conference_short: BMVC
+    conference: <strong>British Machine Vision Conference</strong>, 2023.
+    pdf: https://papers.bmvc2023.org/0193.pdf
+    bibtex: https://okr9871.github.io/
     notes: Oral Presentation
-    image: ./assets/img/teaser_example.png
+    image: ./assets/img/bmvc2023.png
+
+  - title: "Sound-Guided Semantic Video Generation"
+    authors: Seunghyun Lee, <strong>Gyeongrok Oh</strong>, Wonmin Byeon, Wonjeong Ryoo, Sang Ho Yoon, Jinkyu Kim*, Sangpil Kim*
+    conference_short: ECCV
+    conference: European Conference on Computer Vision <strong>(ECCV)</strong>, 2024.
+    pdf: https://arxiv.org/pdf/2204.09273
+    code: https://kuai-lab.github.io/eccv2022sound/
+    page: https://kuai-lab.github.io/eccv2022sound/
+    bibtex: https://okr9871.github.io/
+    notes: Poster Presentation
+    image: ./assets/img/eccv2022.png
+
+  - title: "FPANet: Frequency-based Video Demoireing using Frame-level Post Alignment"
+    authors: <strong>Gyeongrok Oh</strong>, Heon Gu, Sungjune Kim, Jinkyu Kim*, Sangpil Kim*
+    conference_short: arXiv
+    # conference: European Conference on Computer Vision <strong>(ECCV)</strong>, 2024.
+    pdf: https://arxiv.org/abs/2301.07330
+    # code: https://kuai-lab.github.io/eccv2022sound/
+    # page: https://kuai-lab.github.io/eccv2022sound/
+    bibtex: https://okr9871.github.io/
+    notes: Pre-print
+    image: ./assets/img/fpanet.png
