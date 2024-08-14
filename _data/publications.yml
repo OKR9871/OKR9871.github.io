@@ -1,7 +1,7 @@
 main:
 
   - title: "MEVG: Multi-event Video Generation with Text-to-Video Models"
-    authors: <strong>Gyeongrok Oh</strong>, Jaehwan Jeong, Sieun Kim, Wonmin Byeon, Jinkyu Kim, Sungwoong Kim, Sangpil Kim* (*Corresponding authors)
+    authors: <strong>Gyeongrok Oh</strong>, Jaehwan Jeong, Sieun Kim, Wonmin Byeon, Jinkyu Kim, Sungwoong Kim, Sangpil Kim
     conference_short: ECCV
     conference: European Conference on Computer Vision <strong>(ECCV)</strong>, 2024.
     pdf: https://arxiv.org/abs/2312.04086
