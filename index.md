@@ -8,7 +8,7 @@ I am a Ph.D. student at the department of artificial intelligence in [Korea Univ
 
 ## Research Interests
 
-- **Multi-modal Representaton:** Multi-modal visual synthesis, Multi-modal representation learning.  
+- **Multi-modal Representaton:** Multi-modal generative model.
 - **Autonomous Driving:** 3D Object Detection, Occupancy Prediction
 
 ## News
