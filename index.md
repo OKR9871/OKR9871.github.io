@@ -20,7 +20,7 @@ I am a Ph.D. student at the department of artificial intelligence in [Korea Univ
 - **[Dec. 2023]** Our paper about domain adaptation for 3DOD is accepted to **[AAAI 2024](https://aaai.org/aaai-conference/)**.
 - **[Aug. 2023]** Our paper about hand pose estimation and action recognition is accepted to **[BMVC 2023](https://bmvc2023.org/)** (Oral).
 - **[Sept. 2022]** Started the integrated MS/PhD program in the **[Computer Vision Lab](https://kuaicv.com/)**, Korea University.
-- **[July. 2022]** Our paper about sound-to-video generation is accepted to **[ECCV](https://eccv2022.ecva.net/)** 2022.
+- **[July. 2022]** Our paper about sound-to-video generation is accepted to **[ECCV 2022](https://eccv2022.ecva.net/)**.
 
 
 {% include_relative _includes/publications.md %}
