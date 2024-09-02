@@ -54,7 +54,7 @@ main:
   - title: "Sound-Guided Semantic Video Generation"
     authors: Seunghyun Lee, <strong>Gyeongrok Oh</strong>, Wonmin Byeon, Wonjeong Ryoo, Sang Ho Yoon, Jinkyu Kim*, Sangpil Kim*
     conference_short: ECCV
-    conference: European Conference on Computer Vision <strong>(ECCV)</strong>, 2024.
+    conference: European Conference on Computer Vision <strong>(ECCV)</strong>, 2022.
     pdf: https://arxiv.org/pdf/2204.09273
     code: https://kuai-lab.github.io/eccv2022sound/
     page: https://kuai-lab.github.io/eccv2022sound/
