@@ -7,7 +7,7 @@ main:
     pdf: https://arxiv.org/abs/2301.07330
     # code: https://kuai-lab.github.io/eccv2022sound/
     # page: https://kuai-lab.github.io/eccv2022sound/
-    bibtex: https://okr9871.github.io/
+    # bibtex: https://okr9871.github.io/
     notes: Impact Factor 7.8
     image: ./assets/img/fpanet.png
 
@@ -16,9 +16,9 @@ main:
     conference_short: ECCV
     conference: European Conference on Computer Vision <strong>(ECCV)</strong>, 2024.
     pdf: https://arxiv.org/abs/2312.04086
-    code: https://kuai-lab.github.io/eccv2024mevg/
+    # code: https://kuai-lab.github.io/eccv2024mevg/
     page: https://kuai-lab.github.io/eccv2024mevg/
-    bibtex: https://okr9871.github.io/
+    # bibtex: https://okr9871.github.io/
     image: ./assets/img/mevg.png
     notes: Poster
 
@@ -27,9 +27,9 @@ main:
     conference_short: NN
     conference: <strong>Neural Networks</strong>, 2024.
     pdf: https://www.sciencedirect.com/science/article/abs/pii/S0893608024001953
-    code: https://kuai-lab.github.io/robust-demo/
+    # code: https://kuai-lab.github.io/robust-demo/
     page: https://kuai-lab.github.io/robust-demo/
-    bibtex: https://okr9871.github.io/
+    # bibtex: https://okr9871.github.io/
     notes: Impact Factor 7.8
     image: ./assets/img/robust.png
 
@@ -40,7 +40,7 @@ main:
     pdf: https://link.springer.com/article/10.1007/s41095-024-0413-5?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=oa_20240815&utm_content=10.1007%2Fs41095-024-0413-5
     # code: https://kuai-lab.github.io/robust-demo/
     # page: https://kuai-lab.github.io/robust-demo/
-    bibtex: https://okr9871.github.io/
+    # bibtex: https://okr9871.github.io/
     notes: Impact Factor 6.9
     image: ./assets/img/lisa.png
 
@@ -49,7 +49,7 @@ main:
     conference_short: AAAI
     conference: <strong>Association for the Advancement of Artificial Intelligence</strong>, 2024.
     pdf: https://arxiv.org/abs/2403.03721
-    bibtex: https://okr9871.github.io/
+    # bibtex: https://okr9871.github.io/
     notes: Poster
     image: ./assets/img/cmda.png
 
@@ -58,7 +58,7 @@ main:
     conference_short: BMVC
     conference: <strong>British Machine Vision Conference</strong>, 2023.
     pdf: https://papers.bmvc2023.org/0193.pdf
-    bibtex: https://okr9871.github.io/
+    # bibtex: https://okr9871.github.io/
     notes: Oral
     image: ./assets/img/bmvc2023.png
 
@@ -69,7 +69,7 @@ main:
     pdf: https://arxiv.org/pdf/2204.09273
     code: https://kuai-lab.github.io/eccv2022sound/
     page: https://kuai-lab.github.io/eccv2022sound/
-    bibtex: https://okr9871.github.io/
+    # bibtex: https://okr9871.github.io/
     notes: Poster
     image: ./assets/img/eccv2022.png
 
