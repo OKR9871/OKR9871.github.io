@@ -1,7 +1,6 @@
 main:
   - title: "3D Occupancy Prediction with Low-Resolution Queries via Prototype-aware View Transformation"
-    authors: <strong>Gyeongrok Oh</strong>&dagger, Sungjune Kim&dagger, Heeju Ko, Hyung-gun Chi, Jinkyu Kim, Dongwook Lee,
-Daehyun Ji, Sungjoon Choi, Sujin Jang*, Sangpil Kim*
+    authors: <strong>Gyeongrok Oh</strong>&dagger, Sungjune Kim&dagger, Heeju Ko, Hyung-gun Chi, Jinkyu Kim, Dongwook Lee, Daehyun Ji, Sungjoon Choi, Sujin Jang*, Sangpil Kim*
     conference_short: CVPR
     conference: Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2025.
     # pdf: https://arxiv.org/abs/2301.07330
