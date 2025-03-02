@@ -12,6 +12,7 @@ I am a Ph.D. student at the department of artificial intelligence in [Korea Univ
 - **Autonomous Driving:** 3D Object Detection, Occupancy Prediction
 
 ## News
+- **[Feb. 2025]** Our paper about occupancy prediction is accepted to **[CVPR 2025](https://cvpr.thecvf.com/)**.
 - **[Dec. 2024]** Our paper about video demoire is accepted to **[Neural Networks](https://www.sciencedirect.com/journal/neural-networks)**.
 - **[July. 2024]** Our paper about text-to-video generation is accepted to **[ECCV 2024](https://eccv.ecva.net/)**.
 - **[Mar. 2024]** Our paper about image manipulation is accepted to **[Neural Networks](https://www.sciencedirect.com/journal/neural-networks)**.
