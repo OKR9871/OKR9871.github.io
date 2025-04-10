@@ -5,7 +5,7 @@ main:
     conference: Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2025.
     pdf: https://arxiv.org/abs/2503.15185
     # code: https://kuai-lab.github.io/eccv2022sound/
-    # page: https://kuai-lab.github.io/eccv2022sound/
+    page: https://kuai-lab.github.io/cvpr2025protoocc/
     # bibtex: https://okr9871.github.io/
     image: ./assets/img/protoocc.png
 
