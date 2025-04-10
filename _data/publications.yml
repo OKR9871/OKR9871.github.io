@@ -3,7 +3,7 @@ main:
     authors: <strong>Gyeongrok Oh</strong>†, Sungjune Kim†, Heeju Ko, Hyung-gun Chi, Jinkyu Kim, Dongwook Lee, Daehyun Ji, Sungjoon Choi, Sujin Jang*, Sangpil Kim*
     conference_short: CVPR
     conference: Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2025.
-    # pdf: https://arxiv.org/abs/2301.07330
+    pdf: https://arxiv.org/abs/2503.15185
     # code: https://kuai-lab.github.io/eccv2022sound/
     # page: https://kuai-lab.github.io/eccv2022sound/
     # bibtex: https://okr9871.github.io/
@@ -14,7 +14,7 @@ main:
     conference_short: NN
     conference: <strong>Neural Networks</strong>, 2024.
     pdf: https://arxiv.org/abs/2301.07330
-    # code: https://kuai-lab.github.io/eccv2022sound/
+    code: https://github.com/kuai-lab/nn24_FPANet
     # page: https://kuai-lab.github.io/eccv2022sound/
     # bibtex: https://okr9871.github.io/
     notes: Impact Factor 7.8
@@ -25,7 +25,7 @@ main:
     conference_short: ECCV
     conference: European Conference on Computer Vision <strong>(ECCV)</strong>, 2024.
     pdf: https://arxiv.org/abs/2312.04086
-    # code: https://kuai-lab.github.io/eccv2024mevg/
+    code: https://github.com/kuai-lab/eccv24_MEVG
     page: https://kuai-lab.github.io/eccv2024mevg/
     # bibtex: https://okr9871.github.io/
     image: ./assets/img/mevg.png
@@ -67,6 +67,7 @@ main:
     conference_short: BMVC
     conference: <strong>British Machine Vision Conference</strong>, 2023.
     pdf: https://papers.bmvc2023.org/0193.pdf
+    code: https://github.com/kuai-lab/functional_hand_type
     # bibtex: https://okr9871.github.io/
     notes: Oral
     image: ./assets/img/bmvc2023.png
@@ -76,7 +77,7 @@ main:
     conference_short: ECCV
     conference: European Conference on Computer Vision <strong>(ECCV)</strong>, 2022.
     pdf: https://arxiv.org/pdf/2204.09273
-    code: https://kuai-lab.github.io/eccv2022sound/
+    code: https://github.com/kuai-lab/sound2video
     page: https://kuai-lab.github.io/eccv2022sound/
     # bibtex: https://okr9871.github.io/
     notes: Poster
