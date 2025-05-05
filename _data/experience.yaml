@@ -1,0 +1,19 @@
+experiences:
+
+- place: "SAIT"
+  time: "2024 - 2025"
+  title: "Visiting Researcher"
+  subtitle: "Computer Vision Lab (Advisor: Sujin Jang)"
+  category: "education"
+
+- place: "Korea Univ."
+  time: "2022 - present"
+  title: "Ph.D. Student"
+  subtitle: "Artificial Intelligence"
+  category: "education"
+
+- place: "Inha Univ."
+  time: "2016 - 2022"
+  title: "B.S. Student"
+  subtitle: "Computer Science"
+  category: "education"

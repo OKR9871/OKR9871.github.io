@@ -1,0 +1,72 @@
+papers:
+  - title: "Test-Time Adaptation for Online Vision-Language Navigation with Feedback-based Reinforcement Learning"
+    authors: "Sungjune Kim*, <strong>Gyeongrok Oh*</strong>, Heeju Ko, Daehyun Ji, Dongwook Lee, Byung-Jun Lee, Sujin Jang, Sangpil Kim"
+    venue: "ICML, 2025."
+    # paper_pdf: "https://arxiv.org/abs/2503.15185"
+    # code: ""
+    # project: "https://kuai-lab.github.io/cvpr2025protoocc/"
+    selected: y
+
+  - title: "3D Occupancy Prediction with Low-Resolution Queries via Prototype-aware View Transformation"
+    authors: "<strong>Gyeongrok Oh*</strong>, Sungjune Kim*, Heeju Ko, Hyung-gun Chi, Jinkyu Kim, Dongwook Lee, Daehyun Ji, Sungjoon Choi, Sujin Jang, Sangpil Kim"
+    venue: "CVPR, 2025."
+    paper_pdf: "https://arxiv.org/abs/2503.15185"
+    # code: ""
+    project: "https://kuai-lab.github.io/cvpr2025protoocc/"
+    selected: y
+
+  - title: "FPANet: Frequency-based Video Demoireing using Frame-level Post Alignment"
+    authors: "<strong>Gyeongrok Oh</strong>, Sungjune Kim, Heon Gu, Sang Ho Yoon, Jinkyu Kim*, Sangpil Kim*"
+    venue: "Neural Networks, 2024."
+    paper_pdf: "https://arxiv.org/abs/2301.07330"
+    code: "https://github.com/kuai-lab/nn24_FPANet"
+    # project: "https://kuai-lab.github.io/cvpr2025protoocc/"
+    selected: y
+
+  - title: "MEVG: Multi-event Video Generation with Text-to-Video Models"
+    authors: "<strong>Gyeongrok Oh</strong>, Jaehwan Jeong, Sieun Kim, Wonmin Byeon, Jinkyu Kim, Sungwoong Kim, Sangpil Kim"
+    venue: "ECCV, 2024."
+    paper_pdf: "https://arxiv.org/abs/2312.04086"
+    code: "https://github.com/kuai-lab/eccv24_MEVG"
+    project: "https://kuai-lab.github.io/eccv2024mevg/"
+    selected: y
+
+  - title: "Robust Sound-Guided Image Manipulation"
+    authors: "Seunghyun Lee*, Hyung-gun Chi*, <strong>Gyeongrok Oh</strong>, Wonmin Byeon, Sang Ho Yoon, Hyunje Park, Wonjun Cho, Jinkyu Kim, Sangpil Kim"
+    venue: "Neural Networks, 2024."
+    paper_pdf: "https://www.sciencedirect.com/science/article/abs/pii/S0893608024001953"
+    # code: "https://github.com/kuai-lab/eccv24_MEVG"
+    project: "https://kuai-lab.github.io/robust-demo/"
+    selected: n
+
+  - title: "Audio-Guided Implicit Neural Representation for Local Image Stylization"
+    authors: "Seung Hyun Lee*, Sieun Kim*, Wonmin Byeon, <strong>Gyeongrok Oh</strong>, Sumin In, Hyeongcheol Park, Sang Ho Yoon, Sung-hee Hong, Jinkyu Kim, and Sangpil Kim"
+    venue: "Computational Visual Media, 2024."
+    paper_pdf: "https://link.springer.com/article/10.1007/s41095-024-0413-5?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=oa_20240815&utm_content=10.1007%2Fs41095-024-0413-5"
+    # code: "https://github.com/kuai-lab/eccv24_MEVG"
+    # project: "https://kuai-lab.github.io/robust-demo/"
+    selected: n
+
+  - title: "CMDA: Cross-Modal and Domain Adversarial Adaptation for LiDAR-based 3D Object Detection"
+    authors: "Gyusam Chang*, Wonseok Roh*, Sujin Jang, Dongwook Lee, Daehyun Ji, <strong>Gyeongrok Oh</strong>, Jinsun Park, Jinkyu Kim, Sangpil Kim"
+    venue: "AAAI, 2024."
+    paper_pdf: "https://arxiv.org/abs/2403.03721"
+    # code: "https://github.com/kuai-lab/eccv24_MEVG"
+    # project: "https://kuai-lab.github.io/robust-demo/"
+    selected: n
+
+  - title: "Functional Hand Type Prior for 3D Hand Pose Estimation and Action Recognition from Egocentric View Monocular Videos"
+    authors: "Wonseok Roh, Seung Hyun Lee, Wonjeong Ryoo, <strong>Gyeongrok Oh</strong>, Soo Yeon Hwang, Hyung-gun Chi, Sangpil Kim"
+    venue: "BMVC (Oral), 2023."
+    paper_pdf: "https://papers.bmvc2023.org/0193.pdf"
+    code: "https://github.com/kuai-lab/functional_hand_type"
+    # project: "https://kuai-lab.github.io/robust-demo/"
+    selected: n
+  
+  - title: "Sound-Guided Semantic Video Generation"
+    authors: "Seunghyun Lee, <strong>Gyeongrok Oh</strong>, Wonmin Byeon, Wonjeong Ryoo, Sang Ho Yoon, Jinkyu Kim*, Sangpil Kim*"
+    venue: "ECCV, 2022."
+    paper_pdf: "https://arxiv.org/pdf/2204.09273"
+    code: "https://github.com/kuai-lab/sound2video"
+    project: "https://kuai-lab.github.io/eccv2022sound/"
+    selected: y
