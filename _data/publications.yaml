@@ -7,10 +7,18 @@ papers:
     # project: "https://kuai-lab.github.io/cvpr2025protoocc/"
     selected: n
 
+  - title: "LVMark: Robust Watermark for Latent Video Diffusion Models"
+    authors: "Heeju Ko, Sungjune Kim, Gyeongrok Oh, Jeongyoon Yoon, Honglak Lee, Sujin Jang, Seungryong Kim, Sangpil Kim"
+    venue: "NeurIPS, 2025."
+    paper_pdf: "https://arxiv.org/abs/2506.06630"
+    code: "https://github.com/kuai-lab/NeurIPS25_att_vln"
+    project: "https://kuai-lab.github.io/neurips2025atena/"
+    selected: n
+
   - title: "Test-Time Adaptation for Online Vision-Language Navigation with Feedback-based Reinforcement Learning"
     authors: "Sungjune Kim*, <strong>Gyeongrok Oh*</strong>, Heeju Ko, Daehyun Ji, Dongwook Lee, Byung-Jun Lee, Sujin Jang, Sangpil Kim"
     venue: "ICML, 2025."
-    # paper_pdf: "https://arxiv.org/abs/2503.15185"
+    paper_pdf: "https://openreview.net/pdf?id=K4GaB4fdIq"
     # code: ""
     # project: "https://kuai-lab.github.io/cvpr2025protoocc/"
     selected: y
