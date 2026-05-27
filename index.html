@@ -2,248 +2,120 @@
 layout: default
 title: Home
 ---
-<!-- ========== BIO ========== -->
-<div class="docs-section" id="about">
-  <h4>About</h4>
-  <p>
-  I am a Ph.D. student at the department of artificial intelligence in <a href="https://www.korea.edu/sites/en/index.do" target="_blank">Korea University</a>, supervised by <a href="https://kuaicv.com/" target="_blank">Prof. Sangpil Kim</a>. 
-  Previously, I worked as a visiting researcher for one year at Samsung Advanced Institute of Technology (SAIT) in collaboration with the Computer Vision Lab (Advisor: <a href="https://sujinjang.github.io/">Sujin Jang</a>).
-  My research interests lie at the intersection of computer vision, multi-modal generative models, and embodied AI systems. 
-  My work explores how multi-modal generative models can be used to interpret and synthesize complex sensory inputs—such as language, vision, and audio—in unified frameworks. 
-  Furthermore, I am particularly interested in developing 3D visual perception techniques and domain adaptation methods that enable embodied AI systems to operate reliably in real-world environments.🚗🤖💬
 
+<section class="intro">
+  <div class="portrait-wrap">
+    <img class="portrait" src="{{ site.data.main_info.profile_pic | prepend: site.baseurl }}" alt="{{ site.data.main_info.name }}">
+  </div>
 
-  <h6>Topics of Interest</h6>
+  <div class="intro-copy">
+    <h1>{{ site.data.main_info.name }}</h1>
+    <p class="role">{{ site.data.main_info.title }}</p>
+    <p>
+      I am a Ph.D. student in the Department of Artificial Intelligence at
+      <a href="https://www.korea.edu/sites/en/index.do" target="_blank" rel="noreferrer">Korea University</a>,
+      where I am advised by <a href="https://kuaicv.com/" target="_blank" rel="noreferrer">Prof. Sangpil Kim</a>.
+      I previously served as a visiting researcher at Samsung Advanced Institute of Technology (SAIT), collaborating with the Computer Vision Lab.
+    </p>
+    <p>
+      My research aims to build robust perception and reasoning systems for embodied intelligence, drawing on computer vision, multi-modal learning, and generative models to understand dynamic 3D environments.
+    </p>
+    <div class="links" aria-label="Profile links">
+      <a href="mailto:{{ site.data.main_info.email | replace: ' [AT] ', '@' }}">Email</a>
+      <a href="{{ '/assets/cv/CV_Gyeongrok.pdf' | prepend: site.baseurl }}" target="_blank" rel="noreferrer">CV</a>
+      <a href="{{ site.data.main_info.google_scholar }}" target="_blank" rel="noreferrer">Google Scholar</a>
+      <a href="{{ site.data.main_info.github }}" target="_blank" rel="noreferrer">Github</a>
+      <a href="{{ site.data.main_info.linkedin }}" target="_blank" rel="noreferrer">LinkedIn</a>
+    </div>
+  </div>
+</section>
+
+<section class="section news" id="news">
+  <h2>News</h2>
   <ul>
-  <li>
-    Multi-modal Representaton: Multi-modal generative model. [<span style="color: #f4a261;"> ECCV'24, NN'24, CVM'24, ECCV'22 </span>]
-  </li>
-  <li>
-    Embodied AI: 3D Visual Perception [<span style="color: #f4a261;"> ICML'25, CVPR'25, BMVC'23 </span>]
-  </li>
-  <li>
-    Machine Learning: Domain Adaptation, Test-time Adaptation [<span style="color: #f4a261;"> ICML'25, AAAI'24 </span>]
-  </li>
+    <li><span>Sep. 2025</span> One paper on vision-language navigation was accepted to NeurIPS 2025.</li>
+    <li><span>May 2025</span> One paper on vision-language navigation was accepted to ICML 2025.</li>
+    <li><span>Feb. 2025</span> One paper on occupancy prediction was accepted to CVPR 2025.</li>
+    <li><span>Jul. 2024</span> One paper on text-to-video generation was accepted to ECCV 2024.</li>
   </ul>
+</section>
 
-  </p> 
-</div>
-
-<!-- ========== NEWS ========== -->
-<div class="docs-section" id="news">
-  <h4>News</h4>
-  <p>
-  <ul>
-  <li>[Sep. 2025] One paper about vision-language navigation is accepted to NeurIPS 2025.🇺🇸</li>
-  <li>[May. 2025] One paper about vision-language navigation is accepted to ICML 2025.🇨🇦</li>
-  <li>[Feb. 2025] One paper about occupancy prediction is accepted to CVPR 2025.🇺🇸</li>
-  <li>[Dec. 2024] One paper about video demoire is accepted to Neural Networks.</li>
-  <li>[July. 2024] One paper about text-to-video generation is accepted to ECCV 2024.🇮🇹</li>
-  <li>[Mar. 2024] One paper about image manipulation is accepted to Neural Networks.</li>
-  <li>[Feb. 2024] One paper about image stylization is accepted to Computational Visual Media.</li>
-  <li>[Jan. 2024] I started research collaboration with Samsung Advanced Institute of Technology.</li>
-  <li>[Dec. 2023] One paper about domain adaptation for 3DOD is accepted to AAAI 2024.🇺🇸</li>
-  <li>[Aug. 2023] One paper about hand action recognition is accepted to BMVC 2023 (Oral).🇬🇧</li>
-  <li>[Sept. 2022] Started the integrated MS/PhD program in the Computer Vision Lab, Korea University.</li>
-  <li>[July. 2022] One paper about sound-to-video generation is accepted to ECCV 2022.🇮🇱</li>
-  </ul>
-  </p> 
-</div>
-
-
-<!-- ========== PUBLICATIONS ========== -->
-<div class="docs-section" id="publications">
-  <h4>Publications</h4>
-
-  <p>Most recent publications on <a href="{{ site.data.main_info.google_scholar }}" target="_blank">Google Scholar</a>.<br/>
-  * indicates equal contribution.
-  </p>
-
-  <ul class="tab-nav">
-    <li><div class="button active" data-ref="#papers-selected">Selected</div></li>
-    <li><div class="button" data-ref="#papers-all">All</div></li>
-  </ul>
-
-  <div class="tab-content">
-    <div class="tab-pane active" id="papers-selected">
-      {% assign selected_papers = site.data.publications.papers | where: "selected", "y" %}
-      {% for paper in selected_papers %}
-        <div class="paper">
-          <p class="title"><b>{{ paper.title }}</b></p>
-          <p>{{ paper.authors }}</p>
-          <p class="paper-venue"><i>{{ paper.venue }}</i></p>
-           <div class="paper-buttons">
-            {% if paper.paper_pdf %}
-              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
-            {% endif %}
-
-            {% if paper.slides %}
-              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
-            {% endif %}
-
-            {% if paper.poster %}
-              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
-            {% endif %}
-
-            {% if paper.paper_pdf %}
-              <a class="button" href="{{ paper.project | prepend: site.baseurl }}" target="_blank">Project</a>
-            {% endif %}
-
-            {% if paper.video %}
-              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
-            {% endif %}
-
-            {% if paper.code %}
-              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
-            {% endif %}
-
-            {% if paper.data %}
-              <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
-            {% endif %}
-
-          </div>
-        </div>
-      {% endfor %}
-    </div>
-
-    <div class="tab-pane" id="papers-all">
-      {% for paper in site.data.publications.papers %}
-        <div class="paper">
-          <p class="title"><b>{{ paper.title }}</b></p>
-          <p>{{ paper.authors }}</p>
-          <p class="paper-venue"><i>{{ paper.venue }}</i></p>
-           <div class="paper-buttons">
-            {% if paper.paper_pdf %}
-              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
-            {% endif %}
-
-            {% if paper.slides %}
-              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
-            {% endif %}
-
-            {% if paper.poster %}
-              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
-            {% endif %}
-
-            {% if paper.paper_pdf %}
-              <a class="button" href="{{ paper.project | prepend: site.baseurl }}" target="_blank">Project</a>
-            {% endif %}
-
-            {% if paper.video %}
-              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
-            {% endif %}
-
-            {% if paper.code %}
-              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
-            {% endif %}
-
-            {% if paper.data %}
-              <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
-            {% endif %}
-
-          </div>
-        </div>
-      {% endfor %}
-    </div>
-  </div>
-</div>
-
-
-
-<!-- ========== EDUCATION ========== -->
-<div class="docs-section" id="education">
-  <h4>Education</h4>
-
-  <div class="horizbox">
-    <div class="left">
-      <strong>Korea University</strong>
-    </div>
-    <div class="right">
-      Sept. 2022 - Present
-    </div>
+<section class="section" id="research">
+  <div class="section-heading">
+    <h2>Research</h2>
+    <p>* indicates equal contribution.</p>
   </div>
 
-  <div class="subtext">
-    Ph.D. Student in Artificial Intelligence
-  </div>
-
-  </p> 
-  <div class="horizbox">
-    <div class="left">
-      <strong>Inha University</strong>
-    </div>
-    <div class="right">
-      Mar. 2016 - Aug. 2022
-    </div>
-  </div>
-
-  <div class="subtext">
-    B.S. in Computer Science
-  </div>
-
-
-</div>
-
-<!-- ========== RESUME ========== -->
-<div class="docs-section" id="resume">
-  <h4>Vitæ</h4>
-
-  <p>Full Resume in <a href={{ "/assets/cv/CV_Gyeongrok.pdf" | prepend: site.baseurl }} target="_blank">PDF</a> (Last update: Jan. 2026). </p>
-
-  <!-- The Timeline -->
-  <ul class="timeline">
-    {% for exp in site.data.experience.experiences %}
-    <li>
-      {% if exp.category == "work" %}
-      <div class="direction-l">
+  {% assign selected_papers = site.data.publications.papers | where: "selected", "y" %}
+  {% for paper in selected_papers %}
+  <article class="publication">
+    <a class="pub-thumb" href="{{ paper.project | default: paper.paper_pdf }}" target="_blank" rel="noreferrer" aria-label="{{ paper.title }}">
+      {% if paper.image %}
+      <img
+        src="{{ paper.image | prepend: site.baseurl }}"
+        alt="{{ paper.title }} thumbnail"
+        style="--thumb-zoom: {{ paper.image_zoom | default: 1 }}; --thumb-x: {{ paper.image_x | default: '0%' }}; --thumb-y: {{ paper.image_y | default: '0%' }};"
+      >
       {% else %}
-      <div class="direction-r">
+      <span class="pub-year">{{ paper.venue | split: ',' | last | replace: '.', '' | strip }}</span>
+      <span class="pub-venue">{{ paper.venue | split: ',' | first }}</span>
       {% endif %}
-        <div class="flag-wrapper">
-          <span class="flag">{{ exp.place }}</span>
-          <span class="time-wrapper"><span class="time">{{ exp.time }}</span></span>
-        </div>
-        <div class="desc"><b>{{ exp.title }}</b> <br/> {{ exp.subtitle }}</div>
+    </a>
+    <div class="pub-copy">
+      <h3>{{ paper.title }}</h3>
+      <p class="authors">{{ paper.authors }}</p>
+      <p class="venue">{{ paper.venue }}</p>
+      <div class="pub-links">
+        {% if paper.paper_pdf %}<a href="{{ paper.paper_pdf }}" target="_blank" rel="noreferrer">paper</a>{% endif %}
+        {% if paper.project %}<a href="{{ paper.project }}" target="_blank" rel="noreferrer">project</a>{% endif %}
+        {% if paper.code %}<a href="{{ paper.code }}" target="_blank" rel="noreferrer">code</a>{% endif %}
       </div>
-    </li>
-    {% endfor %}
-  </ul>
-</div>
-
-<!-- ========== ACADEMIC SERVICES ========== -->
-<div class="docs-section" id="services">
-  <h4>Academic Services</h4>
-
-  <h6>Conference Reviewer</h6>
-
-  <div class="horizbox">
-    <div class="left">
-      <strong>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)</strong>
     </div>
-    <div class="right">2024, 2025</div>
+  </article>
+  {% endfor %}
+</section>
+
+<section class="section compact" id="all-publications">
+  <h2>All Publications</h2>
+  {% for paper in site.data.publications.papers %}
+  <div class="compact-paper">
+    <p><strong>{{ paper.title }}</strong></p>
+    <p>{{ paper.authors }}</p>
+    <p class="venue">{{ paper.venue }}</p>
+  </div>
+  {% endfor %}
+</section>
+<!--
+<section class="section two-col" id="vita">
+  <div>
+    <h2>Education</h2>
+    <div class="vita-item">
+      <strong>Korea University</strong>
+      <span>Sept. 2022 - Present</span>
+      <p>Ph.D. Student in Artificial Intelligence</p>
+    </div>
+    <div class="vita-item">
+      <strong>Inha University</strong>
+      <span>Mar. 2016 - Aug. 2022</span>
+      <p>B.S. in Computer Science</p>
+    </div>
   </div>
 
-  <div class="horizbox">
-    <div class="left">
-      <strong>CVF/IEEE International Conference on Computer Vision (ICCV)</strong>
+  <div>
+    <h2>Service</h2>
+    <div class="vita-item">
+      <strong>Conference Reviewer</strong>
+      <span>2023 - 2026</span>
+      <p>CVPR, ICCV, WACV</p>
     </div>
-    <div class="right">2025</div>
-  </div>
-
-  <div class="horizbox">
-    <div class="left">
-      <strong>IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)</strong>
+    <div class="vita-item">
+      <strong>Program Committee</strong>
+      <span>2025 - 2026</span>
+      <p>AAAI</p>
     </div>
-    <div class="right">2023, 2025, 2026</div>
   </div>
+</section> -->
 
-  <h6>Program Committee</h6>
-
-  <div class="horizbox">
-    <div class="left">
-      <strong>The Association for the Advancement of Artificial Intelligence (AAAI)</strong>
-    </div>
-    <div class="right">2025, 2026</div>
-  </div>
-</div>
-
+<footer class="footer">
+  <p>{{ site.data.main_info.name }} / {{ site.data.main_info.email }}</p>
+</footer>
