@@ -4,7 +4,7 @@ papers:
     venue: "Pre-print, 2026."
     paper_pdf: "https://arxiv.org/abs/2605.16922"
     image: "/assets/publications/26_neurips/thumbnail.png"
-    image_zoom: 2.4
+    image_zoom: 1
     selected: y
 
   - title: "Training-Free Global Geometric Association for 4D LiDAR Panoptic Segmentation"
@@ -12,7 +12,7 @@ papers:
     venue: "Pre-print, 2025."
     paper_pdf: "https://arxiv.org/abs/2512.18991"
     image: "/assets/publications/26_eccv/thumbnail.png"
-    image_zoom: 2.4
+    image_zoom: 1
     selected: y
 
   - title: "LVMark: Robust Watermark for Latent Video Diffusion Models"
@@ -36,7 +36,7 @@ papers:
     venue: "ICML, 2025."
     paper_pdf: "https://openreview.net/pdf?id=K4GaB4fdIq"
     image: "/assets/publications/25_icml/thumbnail.png"
-    image_zoom: 2.0
+    image_zoom: 1
     # code: ""
     # project: "https://kuai-lab.github.io/cvpr2025protoocc/"
     selected: y
@@ -46,7 +46,7 @@ papers:
     venue: "CVPR, 2025."
     paper_pdf: "https://arxiv.org/abs/2503.15185"
     image: "/assets/publications/25_cvpr/thumbnail.png"
-    image_zoom: 1.8
+    image_zoom: 1
     # code: ""
     project: "https://kuai-lab.github.io/cvpr2025protoocc/"
     selected: y
@@ -57,7 +57,7 @@ papers:
     paper_pdf: "https://arxiv.org/abs/2301.07330"
     code: "https://github.com/kuai-lab/nn24_FPANet"
     image: "/assets/publications/24_nn/thumbnail.png"
-    image_zoom: 2.1
+    image_zoom: 1
     # project: "https://kuai-lab.github.io/cvpr2025protoocc/"
     selected: y
 
@@ -68,7 +68,7 @@ papers:
     code: "https://github.com/kuai-lab/eccv24_MEVG"
     project: "https://kuai-lab.github.io/eccv2024mevg/"
     image: "/assets/publications/24_eccv/thumbnail.png"
-    image_zoom: 2.2
+    image_zoom: 1
     selected: y
 
   - title: "Robust Sound-Guided Image Manipulation"
@@ -110,5 +110,5 @@ papers:
     code: "https://github.com/kuai-lab/sound2video"
     project: "https://kuai-lab.github.io/eccv2022sound/"
     image: "/assets/publications/22_eccv/thumbnail.png"
-    image_zoom: 2.2
+    image_zoom: 1
     selected: y

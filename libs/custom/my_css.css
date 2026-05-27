@@ -146,15 +146,11 @@ h2 {
   border-collapse: separate;
 }
 
-.publication:nth-of-type(odd) {
-  background: #ffffd0;
-}
-
 .pub-thumb {
   display: grid;
   align-content: center;
-  width: 160px;
-  height: 160px;
+  width: 170px;
+  height: 105px;
   margin: 0 auto;
   padding: 0;
   color: #222;
@@ -169,7 +165,7 @@ h2 {
   width: 100%;
   height: 100%;
   margin: 0;
-  object-fit: cover;
+  object-fit: contain;
   transform: translate(var(--thumb-x, 0%), var(--thumb-y, 0%)) scale(var(--thumb-zoom, 1));
   transform-origin: center;
 }
@@ -287,8 +283,8 @@ h2 {
   }
 
   .pub-thumb {
-    width: 96px;
-    height: 96px;
+    width: 100px;
+    height: 72px;
   }
 
   .pub-year {
@@ -330,11 +326,11 @@ h2 {
   .pub-thumb {
     width: 100%;
     height: auto;
-    min-height: 92px;
+    min-height: 96px;
   }
 
   .pub-thumb img {
-    height: 120px;
+    height: 140px;
   }
 
   .vita-item {
