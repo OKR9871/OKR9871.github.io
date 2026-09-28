@@ -1,17 +1,17 @@
 papers:
-  - title: "Motion Cues from Image-based Point Tracking for LiDAR Scene Flow Estimation"
-    authors: "Youngdong Jang*, <strong>Gyeongrok Oh*</strong>, Jong Wook Kim, Hyunju Ryu, Hyung-gun Chi, SeungHyeon Kim, Seungryong Kim, Jonghyun Choi, Sangpil Kim"
-    venue: "Pre-print, 2026."
-    paper_pdf: "https://arxiv.org/abs/2605.16922"
-    image: "/assets/publications/26_neurips/thumbnail.png"
-    image_zoom: 1
-    selected: y
-
   - title: "Training-Free Global Geometric Association for 4D LiDAR Panoptic Segmentation"
     authors: "<strong>Gyeongrok Oh</strong>, Youngdong Jang, Jonghyun Choi, Suk-Ju Kang, Guang Lin, Sangpil Kim"
     venue: "Pre-print, 2025."
     paper_pdf: "https://arxiv.org/abs/2512.18991"
     image: "/assets/publications/26_eccv/thumbnail.png"
+    image_zoom: 1
+    selected: y
+
+  - title: "Motion Cues from Image-based Point Tracking for LiDAR Scene Flow Estimation"
+    authors: "Youngdong Jang*, <strong>Gyeongrok Oh*</strong>, Jong Wook Kim, Hyunju Ryu, Hyung-gun Chi, SeungHyeon Kim, Seungryong Kim, Jonghyun Choi, Sangpil Kim"
+    venue: "NeurIPS, 2026."
+    paper_pdf: "https://arxiv.org/abs/2605.16922"
+    image: "/assets/publications/26_neurips/thumbnail.png"
     image_zoom: 1
     selected: y
 
