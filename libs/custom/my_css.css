@@ -119,6 +119,11 @@ h2 {
   margin-bottom: 0;
 }
 
+.equal-contribution-note {
+  padding: 1px 3px;
+  background: #fff9e6;
+}
+
 .news ul {
   margin: 0;
   padding: 0;
@@ -132,8 +137,23 @@ h2 {
   margin-bottom: 5px;
 }
 
-.news span {
+.news-date {
   color: #666;
+  font-weight: 700;
+}
+
+.news-copy {
+  color: #222;
+}
+
+.news-icon {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.news-venue {
+  color: #9b2f2f;
+  font-weight: 700;
 }
 
 .publication {
